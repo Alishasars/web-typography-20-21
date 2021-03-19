@@ -5,10 +5,25 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+body {
+ background-color: black;
+     text-align: center;
+}
+/* p {
+ color: yellow;
+} */
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+     left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 500px;
+     top: 395px;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -17,9 +32,626 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
+
+/* machine */
 .voice1 {
-	font-style: italic;
+font-family: "Brenner Mono";
+    font-size: 90%;
+     color: yellow;
+    pointer-events: none;
+
 }
+/* Officer K */
+.voice2 {
+font-family: "Brenner Medium";
+    font-size: 100%;
+     color: cyan;
+    pointer-events: none;
+}
+/* random */
+.voice3 {
+font-family: "Brenner Regular Italic";
+    font-size: 80%;
+     color: white;
+    pointer-events: none;
+}
+/* machine 2 */
+.voice4 {
+font-family: "Brenner Mono Medium Italic";
+    font-size: 100%;
+    color: lawngreen;
+    pointer-events: none;
+}
+
+.voice5 {
+font-family: "Brenner Bold";
+    font-size: 120%;
+     color: cyan;
+    pointer-events: none;
+}
+
+
+
+.alarm1 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: white;
+    font-family: "Brenner Sans Medium";
+}
+.sound1 .alarm1 {
+    opacity: 1;
+    animation: pulse 1s;
+}
+@keyframes pulse {
+    50% {
+        background-color: azure;
+    }
+    100% {
+        background-color: black;
+    }
+}
+.sound2 .alarm1 {
+    opacity: 0;
+}
+
+.alarm2 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: black;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound3 .alarm2 {
+    opacity: 1;
+    animation: pulse1 1s;
+}
+@keyframes pulse1 {
+    50% {
+        background-color: lightyellow;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+.sound4 .alarm2 {
+    opacity: 0;
+}
+
+.alarm3 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: white;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound5 .alarm3 {
+    opacity: 1;
+    animation: pulse2 1s;
+}
+@keyframes pulse2 {
+    50% {
+        background-color: azure;
+    }
+    100% {
+        background-color: darkgreen;
+    }
+}
+.sound6 .alarm3 {
+    opacity: 0;
+}
+
+.alarm4 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: black;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound7 .alarm4 {
+    opacity: 1;
+    animation: pulse3 1s;
+}
+@keyframes pulse3 {
+    50% {
+        background-color: lightyellow;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+.sound8 .alarm4 {
+    opacity: 0;
+}
+
+.alarm5 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: white;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound9 .alarm5 {
+    opacity: 1;
+    animation: pulse4 1s;
+}
+@keyframes pulse4 {
+    50% {
+        background-color: azure;
+    }
+    100% {
+        background-color: darkgreen;
+    }
+}
+.sound10 .alarm5 {
+    opacity: 0;
+}
+
+.alarm6 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: black;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound11 .alarm6 {
+    opacity: 1;
+    animation: pulse5 1s;
+}
+@keyframes pulse5 {
+    50% {
+        background-color: lightyellow;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+.sound12 .alarm6 {
+    opacity: 0;
+}
+
+
+.alarm7 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: white;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound13 .alarm7 {
+    opacity: 1;
+    animation: pulse6 1s;
+}
+@keyframes pulse6 {
+    50% {
+        background-color: azure;
+    }
+    100% {
+        background-color: darkgreen;
+    }
+}
+.sound14 .alarm7 {
+    opacity: 0;
+}
+
+
+
+.alarm8 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: black;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound15 .alarm8 {
+    opacity: 1;
+    animation: pulse7 1s;
+}
+@keyframes pulse7 {
+    50% {
+        background-color: lightyellow;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+.sound16 .alarm8 {
+    opacity: 0;
+}
+
+/*.alarm9 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 800px;
+    top: 80px;
+    color: white;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound17 .alarm9 {
+    opacity: 1;
+    animation: ease-in highpitch 41s;
+}
+@keyframes highpitch {
+ 0% {
+    opacity:0.15;
+  }
+  15% {
+    opacity:0.25;
+  }
+  30% {
+    opacity:0.35;
+  }
+  45% {
+    opacity:0.50;
+  }
+  60% {
+    opacity:0.70;
+  }
+  70% {
+    opacity: 0.80;
+      background-color: lightcoral;
+  }
+  80% {
+    opacity: 0.85;
+      background-color: red;
+  }
+    100% {
+        opacity: 1;
+        background-color: red;
+    }
+} */
+.alarm9 {
+    opacity: 0;
+    position: absolute;
+    font-size: 1px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 800px;
+    height: 335px;
+    top: 68px;
+    color: white;
+    font-family: "Brenner Sans Medium";
+    pointer-events: none;
+}
+
+.sound17 .alarm9 {
+    opacity: 1;
+    animation: ease-in highpitch 41s;
+}
+@keyframes highpitch {
+    0% {
+        opacity: 0.15;
+    }
+    10% {
+    opacity:0.15;
+     background-color: lightgray;
+  }
+  15% {
+    opacity:0.25;
+  }
+  30% {
+    opacity:0.35;
+  }
+  45% {
+    opacity:0.50;
+  }
+  60% {
+    opacity:0.70;
+  }
+  70% {
+    opacity: 0.80;
+      background-color: lightgray;
+  }
+  90% {
+    opacity: 0.85;
+      background-color: gray;
+  }
+    100% {
+        opacity: 0.9;
+        background-color: gray;
+    }
+}
+.sound18 .alarm9 {
+    animation: normal;
+    opacity: 0;
+}
+
+
+.alarm10 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: white;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound19 .alarm10 {
+    opacity: 1;
+    animation: pulse9 1s;
+}
+@keyframes pulse9 {
+    50% {
+        background-color: azure;
+    }
+    100% {
+        background-color: black;
+    }
+}
+.sound20 .alarm10 {
+    opacity: 0;
+}
+
+
+.alarm11 {
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 350px;
+    color: white;
+    font-family: "Brenner Sans Medium";
+}
+
+.sound21 .alarm11 {
+    opacity: 1;
+    animation: shake1 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes shake1 {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.sound22 .alarm11 {
+    opacity: 0;
+    animation: normal;
+}
+/* Idee 2 
+ .sound1 .alarm1 {
+    animation: pulse 1s;
+    color: white;
+    font-family: "Brenner Sans Medium";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 250px;
+    opacity: 1;
+}
+@keyframes pulse {
+    0% {
+        background-color: aliceblue;
+        
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+.sound2 .alarm1 {
+    animation: normal;
+    opacity: 0;
+}
+
+.sound2 .alarm2 {
+    animation: pulse 1s;
+    color: white;
+    font-family: "Brenner Sans Medium";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 250px;
+    opacity: 1;
+}
+
+.sound3 .alarm2 {
+    animation: normal;
+    opacity: 0;
+}
+
+.sound3 .alarm3 {
+    animation: pulse 1s;
+    color: white;
+    font-family: "Brenner Sans Medium";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 250px;
+    opacity: 1;
+}
+
+.sound4 .alarm3 {
+    animation: normal;
+    opacity: 0;
+}
+
+.sound4 .alarm4 {
+    animation: pulse 1s;
+    color: white;
+    font-family: "Brenner Sans Medium";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 250px;
+    opacity: 1;
+}
+
+.sound5 .alarm4 {
+    animation: normal;
+    opacity: 0;
+}
+
+.sound5 .alarm5 {
+    animation: pulse 1s;
+    color: white;
+    font-family: "Brenner Sans Medium";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 250px;
+    opacity: 1;
+}
+
+.sound6 .alarm5 {
+    animation: normal;
+    opacity: 0;
+}
+
+.sound6 .alarm6 {
+    animation: pulse 1s;
+    color: white;
+    font-family: "Brenner Sans Medium";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 250px;
+    opacity: 1;
+}
+
+.sound7 .alarm6 {
+    animation: normal;
+    opacity: 0;
+}
+
+.sound7 .alarm7 {
+    animation: pulse 1s;
+    color: white;
+    font-family: "Brenner Sans Medium";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    top: 250px;
+    opacity: 1;
+}
+
+.sound8 .alarm7 {
+    animation: normal;
+    opacity: 0;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*.sound1 .deepalarm {
+    opacity: 1;
+    color: aquamarine;
+    position: absolute;
+    width: 500px;
+    top: 330px;
+}*/
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -29,7 +661,7 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
-.p0 span {
+/* .p0 span {
 	opacity: 0;
 	font-family: brenner;
 }
@@ -94,7 +726,7 @@ You probably want to change the styling.
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
 }
-
+*/
 /* **********************************************
 Sounds.
 	You can style the whole body, or you can 
@@ -102,7 +734,7 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
+/* The moment the class .sound1 is added to the body, the background is yellow 
 .sound1 {
 	background: yellow;
 }
@@ -110,7 +742,14 @@ Sounds.
 iframe {
 	transition: 1s;
 }
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
+The moment the class .sound1 is added to the body, the movie makes a turn 
 .sound1 iframe {
 	transform: rotate(1turn);
 }
+*/
+
+/*.sound1 {
+font-family: "Brenner Mono";
+    font-size: 100%;
+    color: white;
+}*/

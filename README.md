@@ -1,83 +1,26 @@
-# Web Typography, 2020/2021
+Onderbouwing Alisha Sars
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+Design principes-
+1. Study situation: De opdracht is om geluiden te laten zien en te beschrijven. Meer context geven aan de geluiden, voor iemand die doof is, waar dat nu verloren gaat. Ik mocht voor Darice, die doof is, dus een closed captions opdracht maken waarbij de spanning van de geluiden verbeeld moesten worden in typografie, kleur, vlakverdeling en grafisch. 
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+2. Ignore conventions:
+Bij deze opdracht mag ik zo over de top gaan als ik wil, alles uitproberen. Denk daarbij aan een beeld dat draait, beweegt of schudt. Of typografie die op en neer gaat, ease-in/out en kleurgebruik. 
 
-Dat kan visueel sterker. 
+3. Prioritse identity:
+Ik heb ervoor gekozen om Darice haar identiteit te volgen uiteindelijk. Hoewel ik ook de "over de top" dingen van Vasilis heb geprobeerd, zoals het beeld volledig rood laten worden of meer spelen met de typografie (wat past bij welk persoon). Ik heb ervoor gekozen om voor Darice te ontwerpen, aangezien dat de doelgroep was voor deze opdracht en ik het interessant vond om daar dieper op in te gaan. Darice gaf bijvoorbeeld ook aan dat "fuck off, skin job" gefluisterd werd en dat ze dat helemaal niet doorhad, dus ben ik gaan googlen naar wat andere programma's en films normaliter gebruiken en dat is de tekst in een balk zetten of tussen haakjes (zie bron: Fluistert: https://bbc.github.io/subtitle-guidelines/). Dit heb ik nu dan ook toegepast. Daarnaast gaf Darice aan dat ze tekst graag in het midden heeft zodat ze niet continu van links naar rechts hoeft te gaan met haar hoofd en kan focussen op een plek. Ook heeft Darice liever de tekst onder het beeld i.p.v. erboven. Beide heb ik aangepast naar haar behoeftes. Zelf kan ik er nu ook mee achterstaan, aangezien het nu makkelijker gemaakt wordt voor Darice en dat hetgeen is wat ik wilde bereiken met deze opdracht. 
 
-En dat gaan jullie doen.
+4. Add nonsense:
+Naar aanleiding van Vasilis feedback dat de golvende toon in de tweede scène wat meer vormgegeven mocht worden had ik een foto van een golfje gemaakt, maar dat bleek uiteindelijk niet goed te werken aangezien het leek alsof er een golfje op het hoofd van de acteur was getekend. Daarnaast had ik bij scène 1 de pieptoon vormgegeven met een ease-in-out waarbij het scherm geleidelijk aan rood werd aan de hand van hoe hoog de pieptoon werd. Toch heb ik ervoor gekozen om dit wat meer grijs te maken, aangezien Darice heeft aangegeven dat ze meer rust in de film wilt hebben in het algemeen. 
 
-## Leerdoelen
+Designkeuzes-
+Typografie:
+Voor de typografie ben ik gegaan voor de Brenner familie, aangezien dit een brede familie is. Voor de machine stem heb ik gekozen voor Brenner Mono aangezien deze meer "space" heeft en weinig poespas, waardoor deze ook wat statig overkomt (zoals een machine hoort). Voor Officer K heb ik gekozen voor Brenner Medium omdat deze menselijker aanvoelt, wat juist belangrijk is voor de context van deze film. Daarnaast ook omdat deze wat sierlijker is. Voor het stukje "fuck off, skin job" heb ik gekozen voor een italic, zodat het duidelijk is dat dit gefluisterd wordt, maar ook dat het een andere personage is.  
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+Kleurgebruik:
+Ik heb de achtergrondkleur zwart gemaakt, zodat het meer voelt alsof je in een bioscoop zit. Daarbij heb ik gezocht naar kleuren die goed leesbaar zijn op zwart. Uit onderzoek blijken dat cyan, magenta, geel en groen te zijn. Ik heb deze kleuren dan ook gebruikt voor de verschillende stemmen (zie bron: https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php)
 
-## Oplevering
+Vlakverdeling:
+Ik heb ervoor gekozen om alles in het midden te zetten, zodat het voor Darice makkelijker is om te lezen en te relaxen tegelijkertijd. Ze gaf duidelijk aan dat ze alle tekst in het midden wilt, zodat ze niet continu op en neer hoeft, dus dat heb ik zo ook gedaan met alle tekst. Hierdoor kan ze focussen op de film. 
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
-
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
-
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
-
-## Typografische restricties
-
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
-
-### Optie 1: Systeemfont
-
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
-
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
-
-### Optie 2: Brenner
-
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+Geluiden: 
+De geluiden staat in balken om een extra push te geven wat voor geluid en wanneer het geluid komt en gaat. Alle geluiden staan onder het beeld, in het midden uitgelijnd. Behalve de pieptoon, hierbij wordt het beeld geleidelijker donkerder van kleur. Dit is de enige uitzondering. Het golvende geluid in de tweede scène staat ook in het midden, beneden uitgelijnd, maar maakt golvende bewegen om te benadrukken wat het geluid doet. 
